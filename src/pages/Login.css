@@ -1,0 +1,11 @@
+.msg {
+  margin-top: 20px;
+  box-shadow: 0 0 10px;
+  border: 1px solid red;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  flex-direction: column;
+  display: none;
+}

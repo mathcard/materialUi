@@ -1,0 +1,169 @@
+#principal{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  height: 80vh;    
+}
+
+.form-checkin  {  
+  width: 600px;
+  height: 400px;      
+  border-radius: 30px;
+  background: #fff;
+  padding: 40px;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;   
+  text-align: center;  
+}
+
+.form-checkin img {
+  width: 100px;
+  margin: 20px 0 30px;           
+  text-align: center;
+
+}
+
+::placeholder{
+  color: #60B55B
+}
+
+.form-checkin .form-checkin-button {
+    color: #fff;
+    font-size: 18px;
+    background: #60B55B;
+    height: 60px; 
+    width: 30%;
+    border-radius: 20px;    
+  } 
+
+.form-checkin .check-find {
+  width: 100%;
+  margin: 50px 0px 0px 0px;
+  padding: 2px 2px 2px 2px;  
+}
+
+.result td{ 
+  box-shadow: 0 0 5px; 
+  border: 1px solid #60B55B;
+  width: 100%;  
+  text-align: left;
+}
+.result .dados-participantes strong{
+  display: block;
+  font-size: 18px;
+  color: #333;
+  margin: 5px;
+}
+
+.result .dados-participantes span{
+  font-size: 13px;
+  color: #999;
+  margin-top: 2px;
+  margin: 5px;
+}
+
+.result .status-inscricao{       
+  display: flex;  
+  align-items: left;
+  flex-direction: column; 
+}
+
+.result .status-inscricao strong{    
+    font-size: 18px;
+    color: #333;
+    margin: 5px;
+  }
+
+.result .status-inscricao span{
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+    margin: 5px;
+  }
+
+.result .confirma-checkin {
+  color: #fff;
+  font-size: 18px;
+  background: #60B55B;
+  height: 60px; 
+  width: 100%;
+  border-radius: 4px;    
+  padding: 20px;
+} 
+
+.result .desfaz-checkin {
+  color: #fff;
+  font-size: 18px;
+  background: #ff8080;
+  height: 60px; 
+  width: 100%;
+  border-radius: 4px;    
+  padding: 20px;
+} 
+
+.result .button-voltar {
+  margin-top: 40px;
+  color: #000000;
+  font-size: 18px;
+  background: #eee;
+  height: 60px; 
+  width: 20%;
+  border-radius: 4px;    
+  padding: 20px;
+  
+}
+
+.result .titulo{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+.ops-checkin {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;      
+}
+
+.ops-checkin input{
+  height: 20px;  
+}
+
+
+.ops-checkin:after {
+  content: "";
+  clear: both;
+}
+
+.op-checkin {
+  border: 1px solid #ccc;
+  border-radius: 5;
+  box-sizing: border-box;
+  flex-direction: row;
+  /*float: right;*/
+  height: 90px;  
+  width: 120px;
+  /*position: relative;*/
+  text-align: center;      
+}
+
+.op-checkin + .op-checkin {
+  margin-left: 25px;
+}
+
+.op-checkin .label-check {
+ /* background: #60B55B;*/
+  bottom: 0px;
+  cursor: pointer;
+  display: block;
+  color: #fff;
+  font-size: 0;
+  left: 1px;
+  position: absolute;
+  right: 1px;
+  text-indent: 100%;
+  top: 1px;
+  white-space: nowrap;
+}
